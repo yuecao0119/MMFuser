@@ -104,6 +104,12 @@
 
 然后，您可以在`scripts/eval`中运行我们的评估脚本。
 
+并且您可以通过以下代码进行模型推理：
+
+```bash
+sh scripts/mmfuser/inference.sh
+```
+
 ## 👍 致谢
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA) ：我们基于该代码库改进。
