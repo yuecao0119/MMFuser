@@ -1,0 +1,4 @@
+# ninja log v5
+3	11998	1712322439153953762	/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/build/temp.linux-x86_64-cpython-39/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/src/cpu/ms_deform_attn_cpu.o	5f1c8dd78489980b
+3	24096	1712322451233580898	/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/build/temp.linux-x86_64-cpython-39/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/src/vision.o	965149eed5de5b42
+3	26706	1712322453836093562	/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/build/temp.linux-x86_64-cpython-39/mnt/afs/user/caoyue/workspace/Deformable-DETR/models/ops/src/cuda/ms_deform_attn_cuda.o	578090a821d01daf
