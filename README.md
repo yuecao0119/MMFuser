@@ -37,6 +37,18 @@ Compared to the previous architecture:
 
 ## Performance
 
+Comparison with state-of-the-art VLLMs on traditional VQA benchmarks and recent Multi-modal benchmarks. The best results are marked in **bold**, and the second best results are <u>underlined</u>.
+
+<p align="center">
+    <img src="images/eval-13b.png" width="100%"></a>
+</p>
+
+After adding MMFuser, the performance of LLaVA-1.5 was greatly improved, surpassing LLaVA-1.5 on multiple benchmarks.
+Specifically, the scores on Vizwiz, MME and MMBench are 57.4,
+1585.2 and 69.9, surpassing LLaVA-1.5 by 3.8, 53.9 and 2.2 points respectively.
+
+Model of scale 7B and more benchmarks are in testing.
+
 
 ## Install
 
