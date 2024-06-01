@@ -38,7 +38,7 @@ Compared to the previous architecture:
 ## Performance
 
 <p align="center">
-    <img src="images/eval-leida.png" width="100%"></a>
+    <img src="images/eval-leida.png" width="90%"></a>
 </p>
 
 Performance comparison of different model sizes. (left) Compared with 7B models including

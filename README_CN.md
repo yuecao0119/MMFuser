@@ -37,7 +37,7 @@
 ## 效果
 
 <p align="center">
-    <img src="images/eval-leida.png" width="100%"></a>
+    <img src="images/eval-leida.png" width="90%"></a>
 </p>
 
 不同模型大小的性能比较。 （左）与包括 Qwen-VL-Chat、LLaVA-1.5-7B 在内的 7B 模型相比，我们的模型在 12 个基准测试中的 11 个上实现了 SoTA，平均得分为 61.8 vs 60.3（LLaVA-1.5-7B）。 （右）与包括 InstructBLIP、LLaVA-1.5-13B 在内的 13B 模型相比，我们的模型在 12 个基准测试中的 10 个上实现了 SoTA，平均得分为 64.1 vs 63.2（LLaVA-1.5-7B）。
