@@ -29,7 +29,7 @@
 （c） MMFuser（我们的）：一个多层特征融合模块，用于处理来自视觉主干不同层的图像特征（如CLIP）。
 
 <p align="center">
-    <img src="images/mmfuser-diagram.png" width="100%"></a>
+    <img src="images/mmfuser-diagram.png" width="95%"></a>
 </p>
 
 **MMFuser**是为**多**模态**多**层特征融合而设计的，它可以增强MLLMs的视觉表示。我们发现，CLIP最后几层的功能虽然与文本对齐，但缺乏详细信息。而与之相对的是，来自浅层和中间层的输出特征包含更多的图像细节，但语义对齐较差。因此，我们的MMFuser使用CLIP最后层的输出特征作为查询（Q），使用浅层和中间层的特征作为键（K）和值（V），来改善前面几层的语义对齐程度。通过应用注意力机制，我们融合了多层特征，以获得丰富详细并和文本对齐的图像表示。
@@ -45,7 +45,7 @@
 与传统 VQA 基准测试和最近的多模式基准测试上最先进的 VLLM 进行比较。最佳结果以 **粗体** 标记，第二好结果以 <u>下划线</u> 标记。
 
 <p align="center">
-    <img src="images/eval-res.png" width="100%"></a>
+    <img src="images/eval-res.png" width="90%"></a>
 </p>
 
 加入MMFuser后，LLaVA-1.5的性能得到了大幅提升，在多个基准测试中超越了LLaVA-1.5。

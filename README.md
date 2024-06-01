@@ -30,7 +30,7 @@ Compared to the previous architecture:
 
 
 <p align="center">
-    <img src="images/mmfuser-diagram.png" width="100%"></a>
+    <img src="images/mmfuser-diagram.png" width="95%"></a>
 </p>
 
 **MMFuser** is designed for **M**ulti-modal **M**ulti-layer feature fusion, which can enhance vision representation of MLLMs. The features from the last few layers of CLIP, while aligned with text, lack detailed information. In contrast, the output features from the shallow and intermediate layers contain more image details, but have poor semantic alignment.Therefore, our MMFuser employs the output features from the last layers of CLIP as *queries* ($Q$) and the features from the shallow and intermediate layers as *keys* ($K$) and *values* ($V$) to improve the semantic alignment of the previous layers. By applying attention mechanism, we fuse multiple layers of features to obtain image representations that are both richly detailed and text-aligned.
@@ -48,7 +48,7 @@ Qwen-VL-Chat, LLaVA-1.5-7B, our model achieves SoTA on 11 out of 12 benchmarks, 
 Comparison with state-of-the-art VLLMs on traditional VQA benchmarks and recent Multi-modal benchmarks. The best results are marked in **bold**, and the second best results are <u>underlined</u>.
 
 <p align="center">
-    <img src="images/eval-res.png" width="100%"></a>
+    <img src="images/eval-res.png" width="90%"></a>
 </p>
 
 After adding MMFuser, the performance of LLaVA-1.5 was greatly improved, surpassing LLaVA-1.5 on multiple benchmarks. 
