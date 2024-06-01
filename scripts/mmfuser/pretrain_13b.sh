@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+# --ms_cross_attn_lr is set to 1e-4 
+
 deepspeed llava/train/train_mem.py \
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path lmsys/vicuna-13b-v1.5 \
