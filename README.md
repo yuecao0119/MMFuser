@@ -37,18 +37,25 @@ Compared to the previous architecture:
 
 ## Performance
 
+<p align="center">
+    <img src="images/eval-leida.png" width="100%"></a>
+</p>
+
+Performance comparison of different model sizes. (left) Compared with 7B models including
+Qwen-VL-Chat, LLaVA-1.5-7B, our model achieves SoTA on 11 out of 12 benchmarks, an average score of 61.8 vs 60.3(LLaVA-1.5-7B). (right) Compared with 13B models, including InstructBLIP, LLaVA-1.5-13B, our model achieves SoTA on 10 out of 12 benchmarks, an average score of 64.1 vs 63.2(LLaVA-1.5-7B). 
+
+
 Comparison with state-of-the-art VLLMs on traditional VQA benchmarks and recent Multi-modal benchmarks. The best results are marked in **bold**, and the second best results are <u>underlined</u>.
 
 <p align="center">
-    <img src="images/eval-13b.png" width="100%"></a>
+    <img src="images/eval-res.png" width="100%"></a>
 </p>
 
-After adding MMFuser, the performance of LLaVA-1.5 was greatly improved, surpassing LLaVA-1.5 on multiple benchmarks.
+After adding MMFuser, the performance of LLaVA-1.5 was greatly improved, surpassing LLaVA-1.5 on multiple benchmarks. 
 Specifically, the scores on Vizwiz, MME and MMBench are 57.4,
 1585.2 and 69.9, surpassing LLaVA-1.5 by 3.8, 53.9 and 2.2 points respectively.
 
-Model of scale 7B and more benchmarks are in testing.
-
+More benchmarks are in testing.
 
 ## Install
 

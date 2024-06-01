@@ -36,17 +36,23 @@
 
 ## 效果
 
+<p align="center">
+    <img src="images/eval-leida.png" width="100%"></a>
+</p>
+
+不同模型大小的性能比较。 （左）与包括 Qwen-VL-Chat、LLaVA-1.5-7B 在内的 7B 模型相比，我们的模型在 12 个基准测试中的 11 个上实现了 SoTA，平均得分为 61.8 vs 60.3（LLaVA-1.5-7B）。 （右）与包括 InstructBLIP、LLaVA-1.5-13B 在内的 13B 模型相比，我们的模型在 12 个基准测试中的 10 个上实现了 SoTA，平均得分为 64.1 vs 63.2（LLaVA-1.5-7B）。
+
 与传统 VQA 基准测试和最近的多模式基准测试上最先进的 VLLM 进行比较。最佳结果以 **粗体** 标记，第二好结果以 <u>下划线</u> 标记。
 
 <p align="center">
-    <img src="images/eval-13b.png" width="100%"></a>
+    <img src="images/eval-res.png" width="100%"></a>
 </p>
 
 加入MMFuser后，LLaVA-1.5的性能得到了大幅提升，在多个基准测试中超越了LLaVA-1.5。
 其中，在Vizwiz、MME和MMBench上的得分分别为57.4、
 1585.2和69.9，分别比LLaVA-1.5高出3.8分、53.9分和2.2分。
 
-7B规模模型及更多基准测试正在测试中。
+更多基准测试正在测试中。
 
 ## 安装
 
