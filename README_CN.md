@@ -40,7 +40,7 @@
     <img src="images/eval-leida.png" width="90%"></a>
 </p>
 
-不同模型大小的性能比较。 （左）与包括 Qwen-VL-Chat、LLaVA-1.5-7B 在内的 7B 模型相比，我们的模型在 12 个基准测试中的 11 个上实现了 SoTA，平均得分为 61.8 vs 60.3（LLaVA-1.5-7B）。 （右）与包括 InstructBLIP、LLaVA-1.5-13B 在内的 13B 模型相比，我们的模型在 12 个基准测试中的 10 个上实现了 SoTA，平均得分为 64.1 vs 63.2（LLaVA-1.5-7B）。
+不同模型大小的性能比较。 （左）与包括 Qwen-VL-Chat、LLaVA-1.5-7B 在内的 7B 模型相比，我们的模型在 12 个基准测试中的 11 个上实现了 SoTA。 （右）与包括 InstructBLIP、LLaVA-1.5-13B 在内的 13B 模型相比，我们的模型在 12 个基准测试中的 10 个上实现了 SoTA。
 
 与传统 VQA 基准测试和最近的多模式基准测试上最先进的 VLLM 进行比较。最佳结果以 **粗体** 标记，第二好结果以 <u>下划线</u> 标记。
 
@@ -106,9 +106,9 @@
 
 ## 评估
 
-我们遵循[LLaVA-v1.5](https://github.com/haotian-liu/LLaVA/tree/main)进行评估。您应该下载[eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing)，并将其解压缩到`./playground/data/eval`。此外，我们还进一步实施了refcoco、mmmu和xxx的评估。请参考[Evaluation.md](./docs/Evaluation.md)准备数据。
+我们遵循[LLaVA-v1.5](https://github.com/haotian-liu/LLaVA/tree/main)进行评估。您应该下载[eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing)，并将其解压缩到`./playground/data/eval`。请参考[Evaluation.md](./docs/Evaluation.md)准备数据。
 
-然后，您可以在`scripts/eval`中运行我们的评估脚本。
+然后，您可以在`scripts/v1_5/eval`中运行我们的评估脚本。
 
 并且您可以通过以下代码进行模型推理：
 

@@ -42,7 +42,7 @@ Compared to the previous architecture:
 </p>
 
 Performance comparison of different model sizes. (left) Compared with 7B models including
-Qwen-VL-Chat, LLaVA-1.5-7B, our model achieves SoTA on 11 out of 12 benchmarks, an average score of 61.8 vs 60.3(LLaVA-1.5-7B). (right) Compared with 13B models, including InstructBLIP, LLaVA-1.5-13B, our model achieves SoTA on 10 out of 12 benchmarks, an average score of 64.1 vs 63.2(LLaVA-1.5-7B). 
+Qwen-VL-Chat, LLaVA-1.5-7B, our model achieves SoTA on 11 out of 12 benchmarks. (right) Compared with 13B models, including InstructBLIP, LLaVA-1.5-13B, our model achieves SoTA on 10 out of 12 benchmarks. 
 
 
 Comparison with state-of-the-art VLLMs on traditional VQA benchmarks and recent Multi-modal benchmarks. The best results are marked in **bold**, and the second best results are <u>underlined</u>.
@@ -105,9 +105,9 @@ Our training pipeline and datasets  are directly borrowed from [LLaVA-v1.5](http
     ```
 
 ## Evaluation
-We follow  [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA/tree/main) to conduct evaluations. you should download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and unzip it to `./playground/data/eval`.  Besides, we further implement the evaluation of refcoco, mmmu and xxx. Please refer to [Evaluation.md](./docs/Evaluation.md) to prepare the data.   
+We follow  [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA/tree/main) to conduct evaluations. you should download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and unzip it to `./playground/data/eval`. Please refer to [Evaluation.md](./docs/Evaluation.md) to prepare the data.   
 
-Then, your can run our evaluation script in `scripts/eval`. 
+Then, your can run our evaluation script in `scripts/v1_5/eval`. 
 
 And you can run inference with:
 ```bash
