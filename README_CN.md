@@ -36,6 +36,8 @@
 
 ## 效果
 
+### 通用多模态基准测试的结果
+
 <p align="center">
     <img src="images/eval-leida.png" width="90%"></a>
 </p>
@@ -52,7 +54,36 @@
 其中，在Vizwiz、MME和MMBench上的得分分别为57.4、
 1585.2和69.9，分别比LLaVA-1.5高出3.8分、53.9分和2.2分。
 
-更多基准测试正在测试中。
+### OCRBench 上的结果
+
+OCRBench 是一个全面的 OCR 基准，包含 1,000 条手动整理和校正的 OCR 相关 VQA 指令。如表所示，我们的模型有 7B 和 13B 个参数，与 LLaVA-1.5 相比平均提高了 15 分。
+
+<p align="center">
+    <img src="images/eval-ocrbench.png" width="55%"></a>
+</p>
+
+### 区域级基准测试的结果
+
+为了评估区域理解和基础能力，我们在两个具有代表性的区域级任务上评估了 MMFuser。
+
+1. 区域字幕结果
+在区域字幕任务中，我们的模型显示出显着的改进。如表所示，与 LLaVA-1.5 相比，MMFuser 的 7B 模型平均比 LLaVA-1.5 提高了 2.5 分，而 13B 版本则提高了 3.9 分。
+
+2. 指称表达理解 (REC) 的结果
+如表所示，我们的模型在指称表达理解基准测试中始终优于 LLaVA-1.5 模型，与 LLaVA-1.5-7B 相比，7B 模型的平均改进尤其显著，为 5.7 分。
+
+<p align="center">
+    <img src="images/eval-region.png" width="90%"></a>
+</p>
+
+### 视觉表现的可视化
+
+为了直观地验证 MMFuser 对视觉特征的影响，我们在图中展示了四个示例图像的输入和输出特征图可视化。
+
+<p align="center">
+    <img src="images/visualization.png" width="90%"></a>
+</p>
+
 
 ## 安装
 

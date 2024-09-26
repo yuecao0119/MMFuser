@@ -37,6 +37,8 @@ Compared to the previous architecture:
 
 ## Performance
 
+### Results on General Multimodal Benchmarks
+
 <p align="center">
     <img src="images/eval-leida.png" width="90%"></a>
 </p>
@@ -55,7 +57,38 @@ After adding MMFuser, the performance of LLaVA-1.5 was greatly improved, surpass
 Specifically, the scores on Vizwiz, MME and MMBench are 57.4,
 1585.2 and 69.9, surpassing LLaVA-1.5 by 3.8, 53.9 and 2.2 points respectively.
 
-More benchmarks are in testing.
+### Results on OCRBench
+
+OCRBench is a comprehensive OCR benchmark containing 1,000 manually curated and corrected OCR-related VQA instructions. As described in the table, our model has 7B and 13B parameters and achieves an average improvement of 15 points over LLaVA-1.5.
+
+<p align="center">
+    <img src="images/eval-ocrbench.png" width="55%"></a>
+</p>
+
+### Results on Region-level Benchmarks
+
+To assess regional understanding and grounding capabilities, we evaluate MMFuser on two representative regional-level tasks.
+
+1. Results of Region Captioning
+On region captioning tasks, our model shows significant improvements. As shown in the table, compared to LLaVA-1.5, the 7B model of MMFuser surpasses LLaVA-1.5 by 2.5 points on average, while the 13B version improves by 3.9 points.
+
+
+2. Results of Referring Expression Comprehension (REC)
+As shown in the table, our model consistently outperforms LLaVA-1.5 models across all benchmarks, with an especially notable average improvement of 5.7 points for the 7B model compared to LLaVA-1.5-7B. 
+
+<p align="center">
+    <img src="images/eval-region.png" width="90%"></a>
+</p>
+
+### Visual Representation Visualization
+
+To intuitively validate the impact of MMFuser on visual features, we present the input and output feature map visualizations for four example images in the figure.
+
+<p align="center">
+    <img src="images/visualization.png" width="90%"></a>
+</p>
+
+
 
 ## Install
 
