@@ -1,4 +1,4 @@
-<h2 align="center">MMFuser: Multi-Modal Multi-Layer Feature Fuser</h2>
+<h2 align="center">MMFuser: Multimodal Multi-Layer Feature Fuser for Fine-Grained Vision-Language Understanding</h2>
 
 <div align="center">
 
