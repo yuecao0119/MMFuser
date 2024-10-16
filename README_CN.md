@@ -1,4 +1,4 @@
-<h2 align="center">MMFuser: 多模态的多层特征融合器</h2>
+<h2 align="center">MMFuser: 用于精细视觉语言理解的多模态多层特征融合器</h2>
 
 <div align="center">
 
