@@ -6,8 +6,12 @@
 
 </div>
 
+文章 "[MMFuser: Multimodal Multi-Layer Feature Fuser for Fine-Grained Vision-Language Understanding](https://arxiv.org/abs/2410.11829)" 的官方实现。
+
+
 ## 📣 新闻
 
+- **[10月 16, 2024]** 论文已在[arXiv](https://arxiv.org/abs/2410.11829)发布！
 - **[5月 30, 2024]**  🔥🔥🔥 源码已经发布。
 
 ## 目录

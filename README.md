@@ -6,8 +6,11 @@ English | [简体中文](README_CN.md)
 
 </div>
 
+The official implementation of the paper "[MMFuser: Multimodal Multi-Layer Feature Fuser for Fine-Grained Vision-Language Understanding](https://arxiv.org/abs/2410.11829)".
+
 ## 📣 News
 
+- **[Oct 16, 2024]** The paper has been released on [arXiv](https://arxiv.org/abs/2410.11829)!
 - **[May 30, 2024]**  🔥🔥🔥 Code has been released.
 
 ## Table of Contents
