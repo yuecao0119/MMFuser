@@ -165,3 +165,11 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/qbench.sh dev
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/qbench_zh.sh dev
 ```
 4. Submit the results by instruction [here](https://github.com/VQAssessment/Q-Bench#option-1-submit-results): `./playground/data/eval/qbench/llvisionqa_zh_dev_answers.jsonl`.
+
+### OCRBench
+
+1. Download [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) to `playground/data/OCRBench`
+2. Multiple-GPU inference and evaluate.
+```Shell
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/ocrbench.sh
+```
