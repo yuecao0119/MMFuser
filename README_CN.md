@@ -159,3 +159,16 @@ sh scripts/mmfuser/inference.sh
 
 - 该项目的大部分内容都是在[LICENSE](https://github.com/yuecao0119/MMFuser/blob/main/LICENSE)文件中的Apache 2.0许可证下发布的。
 - 该服务是一个仅用于非商业用途的研究预览，受LLaMA的[License](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)模型和OpenAI生成的数据的[Terms of Use](https://openai.com/policies/terms-of-use)约束。如果您发现任何潜在的违规行为，请与我们联系。
+
+## 引用
+
+如果这项工作对您的研究有帮助，请考虑引用以下 BibTeX 条目。
+
+```
+@article{cao2024mmfuser,
+  title={MMFuser: Multimodal Multi-Layer Feature Fuser for Fine-Grained Vision-Language Understanding},
+  author={Cao, Yue and Liu, Yangzhou and Chen, Zhe and Shi, Guangchen and Wang, Wenhai and Zhao, Danhuai and Lu, Tong},
+  journal={arXiv preprint arXiv:2410.11829},
+  year={2024}
+}
+```
